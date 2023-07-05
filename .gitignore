@@ -1,0 +1,47 @@
+# ignore Visual Studio File
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.pdb
+*.dll
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.*~
+*~.nib
+*.log
+*.nupkg
+*.dotCover
+*.resharper
+*.sln.ide
+*.sln.docstates
+
+# ignore ReSharper and CodeRush cacheFile
+_ReSharper*/
+*.DotSettings
+*.csproj.DotSettings.user
+
+
+
+# localDebugFile
+*.userprefs
+*.usertasks
+*.user*.*
+*.launch.cs
+
+# TestFile
+TestResults/
+
+# MacFile
+.DS_Store
